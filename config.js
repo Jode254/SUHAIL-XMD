@@ -27,6 +27,16 @@ global.caption = process.env.CAPTION || global.caption || "© GlobalTechInfo"
 global.devs = "" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "";
+//═══════[false=disable and true=enable]═══════\\
+global.welcome = false //auto welcome
+global.autoRecording = false //auto recording
+global.autoTyping = true //auto typing
+global.autorecordtype = false //auto typing + recording
+global.autoread = false //auto read messages
+global.autobio = false //auto update bio
+global.anti212 = true //auto block +212
+global.autoread_status = true //auto view status/story
+
 
 
 
